@@ -1,0 +1,5 @@
+.ds_store
+.idea
+/js/bundle.js
+/js/bundle.min.js
+/node_modules
