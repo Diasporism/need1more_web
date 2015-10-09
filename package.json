@@ -2,7 +2,7 @@
   "name": "need1more",
   "version": "0.0.1",
   "description": "Frontend client for Need1More.",
-  "repository": "https://github.com/diasporism/need1more_frontend",
+  "repository": "https://github.com/diasporism/need1more_web",
   "main": "js/app.js",
   "dependencies": {
     "classnames": "^2.1.5",
