@@ -1,37 +1,21 @@
 {
   "name": "need1more",
   "version": "0.0.1",
-  "description": "Frontend client for Need1More.",
-  "repository": "https://github.com/diasporism/need1more_web",
-  "main": "js/app.js",
+  "description": "React + Flux client for Need1More",
+  "main": "gulpfile.js",
   "dependencies": {
-    "classnames": "^2.1.5",
-    "flux": "^2.1.1",
-    "keymirror": "~0.1.1",
-    "object-assign": "^4.0.1",
-    "react": "^0.14.0"
-  },
-  "devDependencies": {
     "browserify": "^11.2.0",
-    "envify": "^3.4.0",
-    "jest-cli": "^0.5.10",
+    "flux": "^2.1.1",
+    "gulp": "^3.9.0",
+    "react": "^0.14.0",
+    "react-router-component": "^0.27.2",
     "reactify": "^1.1.1",
-    "uglify-js": "~2.4.24",
-    "watchify": "^3.4.0"
+    "vinyl-source-stream": "^1.1.0"
   },
+  "devDependencies": {},
   "scripts": {
-    "start": "watchify -o js/bundle.js -v -d js/app.js",
-    "build": "browserify . -t [envify --NODE_ENV production] | uglifyjs -cm > js/bundle.min.js",
-    "test": "jest"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Logan Sears",
-  "browserify": {
-    "transform": [
-      "reactify",
-      "envify"
-    ]
-  },
-  "jest": {
-    "rootDir": "./js"
-  }
+  "license": "TBD"
 }
