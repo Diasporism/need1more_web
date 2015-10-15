@@ -2,15 +2,18 @@
   "name": "need1more",
   "version": "0.0.1",
   "description": "React + Flux client for Need1More",
-  "main": "gulpfile.js",
+  "main": "server.js",
   "dependencies": {
+    "express": "^4.13.2",
     "browserify": "^11.2.0",
     "flux": "^2.1.1",
     "gulp": "^3.9.0",
     "react": "^0.14.0",
+    "react-dom": "^0.14.0",
     "react-router-component": "^0.27.2",
     "reactify": "^1.1.1",
-    "vinyl-source-stream": "^1.1.0"
+    "vinyl-source-stream": "^1.1.0",
+    "nodemon": "^1.7.1"
   },
   "devDependencies": {},
   "scripts": {

@@ -2,7 +2,7 @@ Need1More Web Client
 =========
 Tabletop just isn't the same without a full party.
 
-This is the frontend web client for Need1More. It's written in Javascript using React and Flux.
+This is the frontend web client for Need1More. It's written in Javascript using Node, React, and Flux.
 
 Installation
 --------------
@@ -17,14 +17,6 @@ Run the Server
 ---------------
 Type...
 ```sh
-$ npm start
+$ nodemon
 ```
-and visit [localhost:3000](http://localhost:3000).
-
-Run the Specs
----------------
-Just type...
-```sh
-$ test
-```
-from the root of the project.
+and visit [localhost:8080](http://localhost:8080).
